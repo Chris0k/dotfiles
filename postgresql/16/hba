@@ -1,4 +1,4 @@
-include_if_exists 'hba_custom'
+include_if_exists hba_custom
 
 # Database administrative login by Unix domain socket
 local   all             postgres                                peer
