@@ -1,12 +1,12 @@
 [credential]
-	helper = cache
+    helper = cache
 [user]
-	email = 35911855+Chris0k@users.noreply.github.com
-	name = chrisok
-	signingkey = 953AA935BD0A2356
+    email = 35911855+Chris0k@users.noreply.github.com
+    name = chrisok
+    signingkey = 953AA935BD0A2356
 [commit]
-	gpgsign = true
+    gpgsign = true
 [gpg]
-	program = /usr/bin/gpg
+    program = /usr/bin/gpg
 [core]
-  autocrlf = input
+    autocrlf = input
