@@ -16,9 +16,14 @@ if [ -n "$BASH_VERSION" ]; then
     fi
 fi
 
-# include .bash_exports if it exists
+# source .bash_exports if it exists
 if [ -f "$HOME/.bash_exports" ]; then
     . "$HOME/.bash_exports"
+fi
+
+# source .bash_functions if it exists
+if [ -f "$HOME/.bash_functions" ]; then
+    . "$HOME/.bash_functions"
 fi
 
 # set PATH so it includes user's private bin if it exists
