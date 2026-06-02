@@ -10,6 +10,7 @@
 .idea/laravel-idea.xml
 .idea/php.xml
 .idea/vcs.xml
+.idea/git_toolbox_prj.xml
 
 # AWS User-specific
 .idea/**/aws.xml
