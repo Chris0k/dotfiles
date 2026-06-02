@@ -7,6 +7,9 @@
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+.idea/laravel-idea.xml
+.idea/php.xml
+.idea/vcs.xml
 
 # AWS User-specific
 .idea/**/aws.xml
@@ -22,6 +25,8 @@
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
 .idea/**/dbnavigator.xml
+.idea/dataSources.xml
+
 
 # Gradle
 .idea/**/gradle.xml
@@ -75,3 +80,4 @@ fabric.properties
 
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
+
