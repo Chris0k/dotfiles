@@ -21,6 +21,11 @@ if [ -f "$HOME/.bash_exports" ]; then
     . "$HOME/.bash_exports"
 fi
 
+# source .bash_aliases if it exists
+if [ -f "$HOME/.bash_aliases" ]; then
+    . "$HOME/.bash_aliases"
+fi
+
 # source .bash_functions if it exists
 if [ -f "$HOME/.bash_functions" ]; then
     . "$HOME/.bash_functions"
