@@ -1,0 +1,11 @@
+/*
+* Tree Style Tab
+*/
+#TabsToolbar {
+    visibility: collapse; /* to hide the native tabs */
+}
+
+#sidebar-header {
+    visibility: collapse; /* to hide the sidebar header */
+}
+
